@@ -1,0 +1,105 @@
+
+body{
+    font-family: "Merriweather";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+    background-image: url("lamborghini.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+
+
+.pfp{
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    left: 607px;
+    top: 20px;
+    width: 135px;
+    border-style: solid;
+    border-radius: 50px;
+    border-color: white;  
+}
+
+.Paragraph{
+    opacity: 0.4;
+    background-color: rgba(0.1,0.2,0.1,0.1);
+    font-weight: 400;
+    text-align: center;
+    color: white;
+    position: relative;
+    right: 175px;
+    top: 310px;
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 2px;
+    text-align: center;    
+}
+
+
+.Name{
+    opacity: 1;
+    font-weight: 400; 
+    color: white;
+    position: relative;
+    left: 457px;
+    top: 130px;
+}
+
+
+.Paragraph:hover{
+    opacity: 1;
+    transition: ease-in-out;
+    transition-duration: 0.3s;
+}
+
+
+.pfp:hover{
+    transform: rotateX(15deg) rotateY(-20deg);
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0;
+}
+
+
+.Name:hover{
+    display: flex;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.3s;
+    opacity: 1;
+    transform: rotateY(-180deg);   
+}
+
+
+.inst{
+    width: 35px;
+    border-style: double;
+    border-color: white;
+    border-width: 0px;
+    border-radius: 35px;
+    position: relative;
+    left: 367px;
+    top: 190px;
+
+
+}
+
+
+.inst:hover{
+    transform: translateY(-10px);
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.4s;
+
+
+
+
+}
+
+
